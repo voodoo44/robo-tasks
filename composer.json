@@ -1,0 +1,25 @@
+{
+    "name": "voodoo44/robo-tasks",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "voodoo44",
+            "email": "voodoo@voodoo4u.net"
+        }
+    ],
+    "require": {
+        "codegyre/robo": "*"
+    },
+    "require-dev": {
+        "patchwork/jsqueeze": "~1.0",
+        "natxet/CssMin": "~3.0",
+        "codeception/base": "~2.1",
+        "codeception/verify": "0.2.*",
+        "codeception/aspect-mock": "0.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "voodoo44\\Robo\\": "src"
+        }
+    }
+}
