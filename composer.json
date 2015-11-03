@@ -20,8 +20,7 @@
     "autoload": {
         "psr-4": {
             "voodoo44\\Robo\\": "src"
-        },
-        "exclude-from-classmap": ["/tests/"]
+        }
     },
     "archive": {
         "exclude": ["/tests"]
