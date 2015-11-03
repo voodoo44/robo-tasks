@@ -23,7 +23,7 @@ class VersionTask implements TaskInterface
     /**
      * @return string
      */
-    function run()
+    public function run()
     {
         return $this->version;
     }
