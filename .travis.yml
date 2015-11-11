@@ -4,4 +4,4 @@ php:
 script: phpunit
 
 before_script:
-  - composer install
+  - composer install -o
