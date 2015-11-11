@@ -1,7 +1,7 @@
 language: php
 php:
   - 5.5
-script: phpunit
+script: php vendor/phpunit/phpunit/phpunit
 
 before_script:
   - composer install -o
